@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Instrument+Serif:ital@0;1&display=swap');
+
 :root {
   --main-bg-color: #f5f5f5;
   font-size: clamp(0.875rem, calc(0.85rem + 0.8vw), 2.5rem);
@@ -42,20 +44,49 @@ section.banner h2 {
     text-align: center;
     font-size: 2.8rem;
     margin: 2vw 0 2vw 0 ;
+    font-family: 'Aboreto';
 }
 section.banner div {
     background-image: url(../src/buque.png);
-    padding: 14vw 1vw 14vw 1vw;
+    padding: 10vw 1vw 10vw 1vw;
     background-position: center;
     text-align: center;
 }
 section.banner div p {
     color: white;
-    margin: 0 33vw 0vw 33vw;
+    margin: 0 33vw 2vw 33vw;
 }
 /*===========================
 CARDS
 ===========================*/
+section.cards {
+    align-items: center;
+}
+section.cards ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 section.cards li {
-    background-image: url(../src/);
+    padding: 17vw 10.5vw 17vw 10.5vw;
+    margin: 7vw 7vw;
+    border-radius: 20px;
+}
+
+section.cards li.um {
+    background-image: url(../src/priscilla-du-preez-xM4wUnvbCKk-unsplash\ 1.png);
+}
+
+section.cards li.dois{
+    background-image: url(../src/image\ 2.png);
+}
+
+section.cards li.tres{
+    background-image: url(../src/Whisk_aa7b0f49a309da385854dc6bd55422c5dr.png);
+}
+section.cards li.quatro{
+    background-image: url(../src/image\ 41.png);
+}
+section.cards h3{
+    color: #f5f5f5;
 }
