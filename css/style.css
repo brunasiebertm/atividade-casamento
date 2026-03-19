@@ -1,111 +1,283 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Instrument+Serif:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Instrument+Serif:ital@0;1&display=swap");
 
 :root {
   --main-bg-color: #f5f5f5;
   font-size: clamp(0.875rem, calc(0.85rem + 0.8vw), 2.5rem);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*==========================
 HEADER
 ==========================*/
 header nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 1vw 2vw 1vw 2vw;
-    background-color: #7B7878;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 2vw 1vw 2vw;
+  background-color: #7b7878;
+  color: white;
 }
 header nav {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 header nav ul {
-    display: flex;
+  display: flex;
 }
 header nav ul li {
-    margin: 0 1.5vw;
+  margin: 0 1.5vw;
 }
 header nav ul li a {
-    font-size: 0.5rem;
+  font-size: 0.5rem;
 }
 header nav h1 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 header nav h1 a span.june {
-    font-size: 0.6rem;
+  font-size: 0.6rem;
 }
 
 /*===========================
 BANNER
 ===========================*/
 section.banner h2 {
-    text-align: center;
-    font-size: 2.8rem;
-    margin: 2vw 0 2vw 0 ;
-    font-family: 'Aboreto';
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 2vw 0 2vw 0;
+  font-family: "Aboreto";
 }
 section.banner div {
-    background-image: url(../src/buque.png);
-    padding: 10vw 1vw 10vw 1vw;
-    background-position: center;
-    text-align: center;
+  background-image: url(../src/buque.png);
+  padding: 10vw 1vw 10vw 1vw;
+  background-position: center;
+  text-align: center;
 }
 section.banner div p {
-    color: white;
-    margin: 0 33vw 2vw 33vw;
+  color: white;
+  margin: 0 33vw 2vw 33vw;
 }
 /*===========================
 CARDS
 ===========================*/
 section.cards {
-    align-items: center;
+  align-items: center;
+}
+
+section.cards h3 {
+  text-decoration: underline;
 }
 section.cards ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 section.cards li {
-    padding: 17vw 10.5vw 17vw 10.5vw;
-    margin: 7vw 7vw;
-    border-radius: 20px;
+  padding: 17vw 10.5vw 17vw 10.5vw;
+  margin: 7vw 7vw;
+  border-radius: 20px;
 }
 
 section.cards li.um {
-    background-image: url(../src/priscilla-du-preez-xM4wUnvbCKk-unsplash\ 1.png);
+  background-image: url(../src/priscilla-du-preez-xM4wUnvbCKk-unsplash\ 1.png);
 }
 
-section.cards li.dois{
-    background-image: url(../src/image\ 2.png);
+section.cards li.dois {
+  background-image: url(../src/image\ 2.png);
 }
 
-section.cards li.tres{
-    background-image: url(../src/Whisk_aa7b0f49a309da385854dc6bd55422c5dr.png);
+section.cards li.tres {
+  background-image: url(../src/Whisk_aa7b0f49a309da385854dc6bd55422c5dr.png);
 }
-section.cards li.quatro{
-    background-image: url(../src/image\ 41.png);
+section.cards li.quatro {
+  background-image: url(../src/image\ 41.png);
 }
-section.cards h3{
-    color: #f5f5f5;
+section.cards h3 {
+  color: #f5f5f5;
 }
 
 section.registry {
+  background-image: url(../src/image\ 5.png);
+  padding: 15vw 1vw 15vw 1vw;
+  background-position: center;
+  text-align: center;
+}
+
+section.registry h4 {
+  color: #f5f5f5;
+  font-family: "aboreto";
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+section.registry p {
+  color: #f5f5f5;
+  margin: 2vw 28vw;
+  font-family: serif;
+}
+
+section.registry button {
+  background-color: #7c7661;
+  font-size: 22px;
+  padding: 1vw 10vw;
+  border-radius: 20px;
+}
+
+section.photos {
+  background-color: #c4bbb4;
+}
+
+section.photos {
+  display: flex;
+  justify-content: center;
+  padding: 2vw 0;
+  margin: 6vw 0 0 0;
+}
+
+section.photos .texto {
+  margin: 0 10vw;
+}
+
+section.photos .texto {
+  text-align: center;
+  margin: 4vw 0;
+  width: 50%;
+}
+
+section.photos .texto p {
+  margin: 3vw 5vw;
+  text-align: center;
+  font-size: 2vw;
+  padding: 0 0;
+  font-family: serif;
+  color: #ffffff;
+}
+
+section.photos button {
+  padding: 0.6vw 10vw;
+  border-radius: 20px;
+  background-color: #7a745f;
+  font-family: "aboreto";
+  font-size: 1.2vw;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+footer {
+  margin: 5vw auto;
+  text-align: center;
+}
+
+footer h4 {
+  font-family: "aboreto";
+  font-size: 3vw;
+  margin: 1vw 0;
+}
+
+footer p {
+  font-family: serif;
+  font-weight: 3vw;
+}
+
+@media screen and (max-width: 600px) {
+  section.banner div p {
+    margin: 5vw 12vw 2vw 12vw;
+  }
+
+  section.cards ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  section.cards li {
+    padding: 50vw 20vw;
+    border-radius: 20px;
+  }
+
+  section.registry {
     background-image: url(../src/image\ 5.png);
     padding: 15vw 1vw 15vw 1vw;
     background-position: center;
     text-align: center;
-}
-section.registry h4 {
+  }
+
+  section.registry h4 {
     color: #f5f5f5;
-}
-section.registry p{
+    font-family: "aboreto";
+    font-size: 6vw;
+  }
+
+  section.registry p {
     color: #f5f5f5;
-    margin: 2vw 28vw;
-}
-section.registry button{
-    background-color: #7C7661;
-    padding: 2vw 4vw
-    border-radius: 20px;
+    margin: 2vw 14vw;
+    font-family: serif;
+  }
+
+  section.registry button {
+    background-color: #7c7661;
+    font-size: 14px;
+    padding: 1.5vw 8vw;
+    border-radius: 10px;
+  }
+
+  footer h4 {
+    font-size: 6vw;
+  }
+
+  footer p {
+    font-size: 4vw;
+  }
+
+  section.photos {
+    background-color: #c4bbb4;
+  }
+
+  section.photos {
+    display: block;
+    justify-content: center;
+    padding: 2vw 0;
+    margin: 6vw 0 0 0;
+  }
+
+  section.photos .texto {
+    margin: 0;
+  }
+  
+  section.photos .texto {
+    margin: 0 10px;
+  }
+
+  section.photos .texto {
+    margin: 4vw 0;
+    width: 100%;
+  }
+
+  section.photos .texto p {
+    text-align: center;
+    margin: 3vw 15vw;
+    text-align: center;
+    font-size: 4.5vw;
+    padding: 0 0;
+    font-family: serif;
+    color: #ffffff;
+  }
+
+  section.photos button {
+    padding: 2vw 10vw;
+    border-radius: 10px;
+    background-color: #7a745f;
+    font-family: "aboreto";
+    font-size: 3vw;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  section.photos {
+    padding: 5vw 0;
+  }
+  section.photos img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
 }
